@@ -1,15 +1,15 @@
 // FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   if (actual === expected) {
-    console.log("✅Assertion Passed: " + actual + " === " + expected);
+    console.log(`✅Assertion Passed: ${actual} === ${expected}`);
   }
   if (actual !== expected) {
-    console.log("❌Assertion Failed: " + actual + " !== " + expected);
+    console.log(`❌Assertion Failed: ${actual} !== ${expected}`);
   }
 };
 
 // TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("Bootcamp", "Bootcamp");
-assertEqual(2, 1);
+assertArraysEqual("Lighthouse Labs", "Bootcamp");
+assertArraysEqual(1, 1);
+assertArraysEqual("Bootcamp", "Bootcamp");
+assertArraysEqual(2, 1);
