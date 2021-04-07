@@ -25,3 +25,5 @@ for(const letter of string) {
 };
 
 console.log(countLetters('Lighthouse in the house'))
+
+module.exports = countLetters;

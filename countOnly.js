@@ -43,3 +43,5 @@ assertArraysEqual(result1["Jason"], 1);
 assertArraysEqual(result1["Karima"], undefined);
 assertArraysEqual(result1["Fang"], 2);
 assertArraysEqual(result1["Agouhanna"], undefined);
+
+module.exports = countOnly;

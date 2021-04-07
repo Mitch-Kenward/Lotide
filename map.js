@@ -36,3 +36,6 @@ const results1 = map(words, word => word[0]);
 //const results2 = map(wordTwo, word => word[0]);
 const results3 = map(wordOne, word => word[0]);
 assertArraysEqual(results1, results3);
+
+
+module.exports = map;

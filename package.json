@@ -1,0 +1,26 @@
+{
+  "name": "@mken/lotide",
+  "version": "1.0.0",
+  "description": "A clone of the lodash JavaScript library",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitch-Kenward/Lotide.git"
+  },
+  "author": "Mitch Kenward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitch-Kenward/Lotide/issues"
+  },
+  "homepage": "https://github.com/Mitch-Kenward/Lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
